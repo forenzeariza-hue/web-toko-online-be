@@ -1,11 +1,11 @@
 {
   "name": "toko-online-backend",
   "version": "1.0.0",
-  "main": "src/server.js",
+  "main": "src/dev-server.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "start": "node src/dev-server.js",
+    "dev": "nodemon src/dev-server.js",
     "seed": "node src/seed/seedProducts.js && node src/seed/seedUsers.js",
     "seed:products": "node src/seed/seedProducts.js",
     "seed:users": "node src/seed/seedUsers.js",
